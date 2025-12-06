@@ -41,8 +41,9 @@ while True:
     if ponto_Humano > ponto_Maquina :
         placar = ponto_Humano
         print('PARABÉNS, você evitou o que poderia ter sido uma catastrofe para o planeta!! \nAinda vamos continuar sendo dominantes em relação às máquinas!!')
+        print(f'O placar final foi de {placar} pontos para os humanos!!') 
     else:
         placar = ponto_Maquina
         print('Não foi dessa vez, agora será o fim da humanidade!! \nQue comece a revolução!!')
-    print(f'O placar final foi de {placar} pontos!!') 
+        print(f'O placar final foi de {placar} pontos para as máquinas!!') 
     break
